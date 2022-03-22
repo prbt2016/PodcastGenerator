@@ -1,6 +1,7 @@
 <?php
 require '../core/misc/configsystem.php';
 require '../core/misc/functions.php';
+require '../core/users.php';
 
 $config = getConfig('../config.php');
 $users = getUsers();
